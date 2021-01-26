@@ -1,8 +1,6 @@
 import { Model, Table, Column } from 'sequelize-typescript'
 
-@Table({
-  tableName: 'user_info_test'
-})
+@Table({tableName: 'user_info_test'})
 export default class UserInfo extends Model<UserInfo> {
   @Column({
     comment: '自增ID',
